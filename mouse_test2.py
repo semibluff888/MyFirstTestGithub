@@ -13,9 +13,6 @@ print('The current pointer position is {0}'.format(mouse.position))
 a = random.random()
 print(a)
 
-print(random.random())
-print(random.random())
-
 
 t0 = time.time()
 
