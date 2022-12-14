@@ -22,8 +22,7 @@ t0 = time.time()
 for _ in range(10):
 
     ghub.mouse_xy(int(20*random.random()), int(20*random.random()))
-    time.sleep(0.001)  # see if this can be recorded
-
+    # time.sleep(0.001)
 
 print('total time costs:', (time.time() - t0))
 
